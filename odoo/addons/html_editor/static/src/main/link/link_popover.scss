@@ -1,0 +1,35 @@
+.o_we_preview_favicon {
+    .o_image {
+        max-width: 100%;
+        max-height: 100%;
+        background-position: top;
+        margin-top: 0.3em;
+    }
+
+    > img {
+        max-height: 16px;
+        max-width: 16px;
+    }
+}
+
+.o-we-linkpopover {
+    .custom-fill-color, .custom-text-color, .custom-border, .input-group {
+        label {
+            width: 70px;
+        }
+    }
+}
+
+.custom-border {
+    @include o-input-number-no-arrows();
+
+    input.form-control {
+        width: 35px;
+    }
+    .input-group-text {
+        padding: 0 0.35rem;
+    }
+    select.form-select {
+        width: 60px;
+    }
+}
